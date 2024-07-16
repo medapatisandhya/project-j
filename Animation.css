@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    /* position: relative; */
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    animation-name: change2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.parent1 {
+    /* position: relative; */
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    animation-name: change1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    /* top: 100px;
+    left: 50%; */
+    animation-name: rotate1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* earpar{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotatex 10s linear infinite;
+    
+} */
+
+.moon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    /* top: 100px;
+    left: 50%; */
+    animation-name: rotate2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform:  rotate(0deg) translateX(200px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+@keyframes rotate2 {
+    0% {
+        transform:  rotate(-180deg) translateX(200px);
+    }
+    100% {
+        transform: rotate(180deg) translateX(200px);
+    }
+}
+@keyframes change1{
+    0%{
+        background-color: orange;
+    }
+    100%{
+        background-color: black;
+    }
+}
+@keyframes change2{
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color:orange;
+    }
+}

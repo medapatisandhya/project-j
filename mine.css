@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.parent{
+    width: 1000px;
+    height: 1000px;
+    background-color: paleturquoise;
+}
+.child1{
+    width:1000px;
+    height: 50px;
+    background-color: pink;
+    padding-top: 15px;
+    
+}
+.child1 a:hover {
+    background-color: #b2ebf2; /* Background color on hover */
+    color: #00796b; /* Text color on hover */
+}
+.child2{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.child3{
+
+}

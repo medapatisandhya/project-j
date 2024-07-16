@@ -1,0 +1,21 @@
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+
+
+}
+.h1,.h2{
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    
+
+}
+.h2{
+    transform: rotateY(180deg);
+    overflow: hidden;
+}

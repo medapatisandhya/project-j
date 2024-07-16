@@ -1,0 +1,145 @@
+.parent{
+    width: 1450px;
+    height: 670px;
+    border: 2px solid black;
+    background-color: black;
+}
+.home{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: 243;
+    left: 100px;
+    background-color: yellow;
+}
+.home1{
+    width: 80px;
+    height: 170px;
+    border: 2px solid black;
+    position: relative;
+    top: 10;
+    left: 50;
+    background-color:rgb(186, 88, 8);
+    
+}
+.home2{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 190;
+    bottom: 200;
+    background-color: rgb(98, 98, 186);
+}
+.home3{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 220;
+    bottom: 266;
+    background-color:rgb(98, 98, 186);;
+}
+.home4{
+    width: 50px;
+    height: 80px;
+    border: 1px solid ;
+    position: relative;
+    left: 220;
+    bottom: 531;
+    background-color:gainsboro;
+    
+}
+.sheld{
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 60;
+    right: 50;
+    background-color:rgb(196, 145, 69); ;
+}
+
+.moon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 30px 10px whitesmoke;
+    float: right;
+    position: absolute;
+    left: 900px;
+}
+.tree{
+    width: 50px;
+    height: 280px;
+    border: 2px solid black;
+    position: relative;
+    left: 1200;
+    bottom: 40;
+    background-color: rgb(235, 187, 128);
+}
+.tree1{
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 100px;
+    position: relative;
+    bottom: 120;
+    right: 50;
+    background-color:green;
+}
+.tree2{
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 90%;
+    position: relative;
+    bottom: 165;
+    right: 115;
+    background-color: green;
+}
+.tree3{
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 90%;
+    position: relative;
+    bottom: 295;
+    left: 15;
+    background-color: green;
+}
+.c1{
+    width: 90px;
+    height: 90px;
+    border-top: 3px solid white;
+    border-radius: 100%;
+}
+.c2{
+    width: 90px;
+    height: 90px;
+    border-bottom: 3px solid white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 105px;
+    left: 88px;
+}
+.c3{
+    width: 90px;
+    height: 90px;
+    border-top: 3px solid white;
+    border-radius: 100%;
+    position: relative;
+    bottom:187px ;
+    left: 179;
+}
+.c4{
+    width: 90px;
+    height: 90px;
+    border-bottom: 3px solid white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 290px;
+    left: 267px;
+}

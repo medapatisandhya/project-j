@@ -1,0 +1,43 @@
+body{
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2D9E8;
+}
+.parent{
+    height: 150px;
+    width: 500px;
+    border-radius: 125px;
+    background-color: white;
+    box-shadow: 0 0 15px inset black;
+    background: url(lightsky.jpg);
+    position: relative;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.parent::before{
+    content: "";
+    height: 140px;
+    width: 140px;
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow: 0 0 15px inset black;
+    position: absolute;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    top: 5px;
+    left: 5px;
+}
+.parent:hover::before{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 355px;
+
+}
+.parent:hover{
+    background: url(nightsky.jpg);
+}

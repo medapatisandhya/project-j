@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+.parent{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+}
+.child1{
+    width: 100%;
+    height: 50%;
+    background-image: url(./framebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 60%;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.Options_max_screen{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 25px;
+    left: 35%;
+    
+}
+.Options_max_screen div{
+    padding: 5px 10px;
+}
+select{
+    display: none;
+}
+@media screen and (max-width:500px){
+    .Options_max_screen{
+        display: none;
+    }
+    select{
+        display: block;
+    }
+}
+.Home:hover{
+    border-bottom:2px solid red ;
+}
+.Product:hover{
+    border-bottom:2px solid red ;
+}
+.Brand:hover{
+    border-bottom:2px solid red ;
+}
+.Inspriation:hover{
+    border-bottom:2px solid red ;
+}
+.Support:hover{
+    border-bottom:2px solid red ;
+}
+.child2{
+    width: 100%;
+    height: 40%;
+    background-color: lightcyan;
+}
+.Residential{
+    width: 130px;
+    height: 50px;
+    color:black;
+    border-radius: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 550px;
+    border-color: brown;
+ }
+.Residential:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: brown;
+    
+ }
+.commercial{
+    width: 130px;
+    height: 50px;
+    color:black;
+    border-radius: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    border-color: brown;
+ }
+.commercial:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: brown;
+    
+ }
+.Retail{
+    width: 130px;
+    height: 50px;
+    color:black;
+    border-radius: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    border-color: brown;
+ }
+.Retail:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: brown;
+    
+ }
+ .Landscape{
+    width: 130px;
+    height: 50px;
+    color:black;
+    border-radius: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    border-color: brown;
+ }
+.Landscape:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: brown;
+    
+ }
+

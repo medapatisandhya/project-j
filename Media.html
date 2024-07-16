@@ -1,0 +1,81 @@
+
+<!-- saved from url=(0037)http://127.0.0.1:5500/mediaquery.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./Media_files/mediaquery.css">
+        <link rel="stylesheet" href="./Media_files/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <title>Media</title>
+    </head>
+    <body cz-shortcut-listen="true">
+        <div class="parent">
+            <img src="./Media_files/logo-removebg-preview.png" width="80px" height="85">
+            <div class="navbar">
+                <div class="Options_max_screen">
+                    <div class="Home">Home</div>
+                    <div class="Product">Product</div>
+                    <div class="Brand">Brand</div>
+                    <div class="Inspriation">Inspriation</div>
+                    <div class="Support">Support</div>
+                </div>
+                <select>
+                    <!-- <option><i class="fa-solid fa-bars"></i></option> -->
+                    <option>Home</option>
+                    <option>Product</option>
+                    <option>Brand</option>
+                    <option>Inspiration</option>
+                    <option>Support</option>
+                </select>
+            </div> 
+        </div>
+        <div class="child1">
+            <span style="color: white;font-size: xxx-large;position: absolute;left: 100px;top: 200px;">Embrace the<br>Transformation</span><br>
+            <span style="color: aliceblue;font-size: 20px;position: absolute;top: 310px;left: 100px">Where lights Make the Change! </span>
+        </div>
+        <div class="child2">
+        <span style="color: black;font-size: xxx-large;position: absolute;top: 440px;left: 300px;">Explore</span>
+        <span style="color: brown; font-size: xxx-large;position: absolute;top: 440px;left: 465px;"> Our Diverse Range of Products</span>
+        </div>
+            <button class="Residential">Residential</button>
+            <button class="commercial">Commercial</button>
+            <button class="Retail">Retail</button>
+            <button class="Landscape">Landscape</button>
+        
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
